@@ -2,9 +2,9 @@ package andre.tech.com.sistema;
 
 public class Livro {
 
-    String titulo;
-    String autor;
-    int anoPublicacao;
+    private String titulo;
+    private String autor;
+    private int anoPublicacao;
 
     public String getTitulo() {
         return titulo;
